@@ -1,0 +1,206 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.center-object{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+
+form{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 50px;
+    background: #fff;
+    border-radius: 15px;
+
+}
+
+input {
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+
+.wrapper{
+    text-align: right; 
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-item {
+    padding-left: 10px;
+    float: left;
+}
+
+.wrapper a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.error {
+    background: #F2DEDE;
+    color: #944442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.success {
+    background: #a8f6ce;
+    color: #05a585;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.register-form{
+    align-items:center;
+    background: #F1F1F1;
+    border-radius: 0px;
+}
+
+.register-form input{
+
+    border-radius: 0px;
+}
+
+.register-form button {
+
+    float: left;
+    background: #08f4b5;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.coffee {
+
+    background: rgb(226, 165, 23);
+    height: 100vh;
+   
+
+}
+
+.img-with-text {
+    display: flex;
+}
+
+.img-with-text img {
+    margin: 20px;
+}
+
+figcaption {
+    margin-left: 20px;
+    font-size: 23px;
+  }
+
+  .coffee button{
+
+    float: left;
+  }
+
+  .coffee form{
+    padding-top: 10px;
+    margin-left: 20px;
+    border-radius: 0;
+  }
+
+.inside {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+table, tr, td, th {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 14px;
+    border-color: #96D4D4;
+}
+
+.product_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    height: 400px;
+    background-color: white;    
+    flex-wrap: wrap;
+    
+}
+
+.oval {
+    width: 100px;
+    height: 60px;
+    margin-top: 50px;
+    background: black;
+    border-radius: 80%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.oval p {
+    margin: 20; 
+    color: red;
+    font-size: 12px;
+  }
+
+
+.additional {
+
+    display: flex;
+}
+
+.checkout {
+
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.checkout p {
+    font-size: 14px;
+}
+
+.checkout h2{
+    font-size:34px;
+}
+
+.buttoning{
+
+    margin-left: 50px;
+    margin-top: 10px;
+}
