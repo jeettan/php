@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+li:hover {
+    background-color: rgba(8, 70, 42, 0.607)
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #62787F;
+    margin: 0;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    padding: 16px 14px;
+    
+}
+
+.sticky {
+  background-color: unset !important;
+} 
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+  img {
+    margin: 0px auto;
+    display: block;
+  }
+
+
+  .container {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 100%;
+    width: 1125px;
+  }
+
+  .container2 {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 87vh;
+    width: 1125px;
+  }
+
+  .container3 {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 88vh;
+    width: 1125px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+  }
+
+  form h2 {
+    text-align: center;
+  }
+
+  input[type=submit]{
+
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    justify-content: center;
+
+  }
+
+
+  input {
+    padding: 5px;
+    width: 70%;
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  textarea {
+    resize: none;
+    padding: 5px;
+  }
+
+  .row {
+
+    margin-bottom: 10px;
+  }
+
+  .form-container {
+
+    position: absolute;
+    left: 35%;
+    top: 20%;
+  }
+  
+  .special-row {
+
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.image_carousel{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+
+  }
+
+  .item {
+
+    background-color: white;
+    flex: 0 0 25%;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .item img{
+
+    margin-top: 25px;
+  }
+
+  .item p{
+
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .item button {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 110, 255);
+    margin-left: 100px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .product {
+
+    background: radial-gradient(#e66465, #9198e5);
+    display: flex;
+    grid-template-columns: 1fr;
+    padding: 20px; 
+    justify-content: center; 
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    gap: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 800px;
+  }
+
+  .description-section {
+
+    background-color: rgb(200, 197, 197);
+    padding: 30px;
+    width: 500px;
+  }
+
+  .description-section button {
+
+    background-color: red;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+
+  .description-section form {
+
+    background-color: initial;
+    margin: 0 !important;
+    border-radius: initial;
+    padding: 0;
+    max-width: initial;
+  }
+
+  .cart{
+
+    width: 100%;
+    margin-top: 30px;
+
+  }
+
+  .cart table {
+
+    border-collapse: collapse;
+
+  }
+
+  .cart th{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #aa0481;
+    color: white;
+  }
+
+  .cart tr:nth-child(even){background-color: #f2f2f2;}
+
+
+  .cart td, .cart th {
+
+    padding: 20px;
+    border: 1.5px solid white;
+    width: 90%;
+
+  }
+
+
+  .sell {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+  
+  }
+  
+  .sell p {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .sell button{
+
+    background-color: red;
+    padding: 15px;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+
+  }
+
+  .sell form {
+    all: initial;
+  }
+
+  .payments{
+
+    margin-top: 45px;
+  }
+
+  .payments h3{
+
+    margin: 20px 0px;
+  }
+
+  .payments input[type=submit] {
+
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+.cart button {
+
+  all: initial;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
